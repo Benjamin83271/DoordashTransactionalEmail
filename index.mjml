@@ -1,0 +1,291 @@
+<mjml>
+  <mj-head>
+    <mj-style>
+      * {
+        box-sizing: border-box;
+      }
+
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+
+      mj-column {
+        width: 600px;
+      }
+
+      @media only screen and (max-width: 556px) {
+        .review-store {
+          display: none;
+          background-color: #fff;
+        }
+
+        .review-stars {
+          display: none;
+        }
+      }
+
+      @media only screen and (max-width: 472px) {
+        .order-thanks div {
+          font-size: 25px !important;
+          line-height: 30px !important;
+        }
+      }
+
+      @media only screen and (max-width: 375px) {
+        .track-button {
+          padding: 6px 12px !important;
+          font-size: 15px !important;
+        }
+      }
+
+      @media only screen and (max-width: 321px) {
+        .order-thanks div {
+          font-size: 15px !important;
+          line-height: 20px !important;
+        }
+
+        .receipt div {
+          font-size: 20px !important;
+        }
+      }
+
+      @media only screen and (max-width: 314px) {
+        .footer-icons {
+          display: none;
+        }
+      }
+    </mj-style>
+    <mj-style inline="inline">
+      .content-background {
+        background-color: #fff;
+      }
+
+      .review-store {
+        background-color: #fff;
+      }
+
+      .review-stars {
+        background-color: #fff;
+      }
+    </mj-style>
+    <mj-attributes>
+      <mj-text color="#000" font-family=" Helvetica, Arial, sans-serif" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#f4f4f4" width="700px">
+    <mj-wrapper>
+      <mj-raw>
+        <!-- Header Logo -->
+      </mj-raw>
+      <mj-section css-class="content-background" padding="48px 0">
+        <mj-column>
+          <mj-image width="448px" height="40px" href="https.doordash.com" alt="doordash logo" src="https://benjamingarcia.info/wp-content/uploads/2023/06/doordash-logo-1.png" padding="0px" align="left" />
+        </mj-column>
+      </mj-section>
+      <mj-raw>
+        <!-- Header Text -->
+      </mj-raw>
+      <mj-section css-class="content-background" padding="0px 64px 15px 64px">
+        <mj-column>
+          <mj-text css-class="order-thanks" color="#FF3008" font-family="sans-serif" font-size="48px" line-height="50px" font-weight="800">
+            THANKS FOR YOUR ORDER, JANE
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-raw>
+        <!-- Thank You Image w/ Description -->
+      </mj-raw>
+      <mj-section css-class="content-background" padding="0px 64px 48px 64px">
+        <mj-column>
+          <mj-image width="577px" href="https.doordash.com" alt="Thank You Photo" src="https://benjamingarcia.info/wp-content/uploads/2023/06/thankyou-image-1.png" align="left" />
+          <mj-text color="#191919" font-family="sans-serif" font-size="16px" line-height="22px" font-weight="400" padding-bottom="24px">
+            The estimated delivery time for your order is
+            <span style="font-weight: bold"> 7:36 PM - 7:48 PM.</span> Track
+            your order in the DoorDash app or website.
+          </mj-text>
+          <mj-button css-class="track-button" href="https://doordash.com" background-color="#FF3008" border-radius="30px" align="left" font-size="18px" line-height="22px" font-weight="700" padding="12px 24px">
+            Track Your Order
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-raw>
+        <!-- Your Receipt -->
+      </mj-raw>
+      <mj-section css-class="content-background" padding="0px 64px 40px 44px" border="20px solid #FF3008">
+        <mj-column>
+          <mj-text color="#191919" font-family="sans-serif" font-size="16px" line-height="22px" font-weight="400" padding="24px 24px 0 24px" align="left">
+            Paid with Visa Ending in 5555 and/or credits
+          </mj-text>
+          <mj-text color="#191919" font-family="sans-serif" font-size="16px" line-height="22px" font-weight="400" align="left" padding-top="0px" padding-bottom="0px">
+            Schlotzsky's
+          </mj-text>
+          <mj-text color="#191919" font-family="sans-serif" font-size="16px" line-height="22px" font-weight="700" align="left" padding-top="0px" padding-bottom="14px">
+            Total: $30.06
+          </mj-text>
+          <mj-text css-class="receipt" color="#191919" font-family="sans-serif" font-size="24px" line-height="24px" font-weight="800" align="left" padding-top="0px" padding-bottom="0px">
+            YOUR RECEIPT
+          </mj-text>
+          <mj-text color="#191919" font-family="sans-serif" font-size="16px" line-height="22px" font-weight="400" align="left" padding-top="0px" padding-bottom="25px">
+            15021 I-45, Dallas, TX 77985, USA
+          </mj-text>
+          <mj-divider border-width="1px" border-style="solid" border-color="lightgray" />
+          <mj-text color="#191919" font-family="sans-serif" font-size="16px" line-height="22px" font-weight="700" align="left" padding-top="0px" padding-bottom="25px">
+            Estimated Total: $30.06
+          </mj-text>
+          <mj-text color="#ff3008" font-family="sans-serif" font-size="16px" line-height="22px" font-weight="400" align="left" padding-top="0px" padding-bottom="0px">
+            View Full Receipt
+          </mj-text>
+          <mj-text color="#ff3008" font-family="sans-serif" font-size="16px" line-height="22px" font-weight="400" align="left" padding-top="0px" padding-bottom="0px">
+            Get Order Help
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-raw>
+        <!-- Review Store -->
+      </mj-raw>
+      <mj-section css-class="review-store" padding="48px 64px 0px">
+        <mj-column>
+          <mj-text color="#191919" font-family="sans-serif" font-size="24px" line-height="24px" font-weight="800" padding-bottom="16px">
+            REVIEW THIS STORE
+          </mj-text>
+          <mj-text color="#191919" font-family="sans-serif" font-size="16px" line-height="22px" font-weight="400" padding-bottom="10px">
+            Share your thoughts on your order with fellow customers and
+            Schlotzsky's.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-raw>
+        <!-- Review Stars -->
+      </mj-raw>
+      <mj-section css-class="review-stars" padding="0px 64px 48px">
+        <mj-column>
+          <mj-table width="360px">
+            <tr>
+              <td style="width: 10px">
+                <img href="https://doordash.com" src="https://benjamingarcia.info/wp-content/uploads/2023/06/starwhite-1.png" width="64px" />
+              </td>
+              <td style="width: 10px">
+                <img href="https://doordash.com" src="https://benjamingarcia.info/wp-content/uploads/2023/06/starwhite-1.png" width="64px" />
+              </td>
+              <td style="width: 10px">
+                <img href="https://doordash.com" src="https://benjamingarcia.info/wp-content/uploads/2023/06/starwhite-1.png" width="64px" />
+              </td>
+              <td style="width: 10px">
+                <img href="https://doordash.com" src="https://benjamingarcia.info/wp-content/uploads/2023/06/starwhite-1.png" width="64px" />
+              </td>
+              <td style="width: 10px">
+                <img href="https://doordash.com" src="https://benjamingarcia.info/wp-content/uploads/2023/06/starwhite-1.png" width="64px" />
+              </td>
+            </tr>
+          </mj-table>
+        </mj-column>
+      </mj-section>
+      <mj-raw>
+        <!-- Footer Header -->
+      </mj-raw>
+      <mj-section background-color="#f4f4f4" padding="0px 64px">
+        <mj-column>
+          <mj-image width="183px" height="21.5px" href="https.doordash.com" alt="Thank You Photo" src="https://benjamingarcia.info/wp-content/uploads/2023/06/DoorDash-Logo2-1.png" align="left" padding-bottom="32px" padding-top="48px" />
+          <mj-divider border-width="1px" border-style="solid" border-color="lightgray" />
+        </mj-column>
+      </mj-section>
+      <mj-raw>
+        <!-- Footer Body -->
+      </mj-raw>
+      <mj-section background-color="#f4f4f4" padding="0px 64px">
+        <mj-column>
+          <mj-image width="59px" height="27px" href="https.doordash.com" alt="Android/Apple Logo" src="https://benjamingarcia.info/wp-content/uploads/2023/06/apple-android_logo-1.png" align="left" />
+          <mj-text color="#191919" font-family="sans-serif" font-size="16px" line-height="22px" font-weight="600" padding-bottom="24px">
+            Download the app
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-image width="43px" height="28px" href="https.doordash.com" alt="Android/Apple Logo" src="https://benjamingarcia.info/wp-content/uploads/2023/06/doordash-card-1.png" align="left" />
+          <mj-text color="#191919" font-family="sans-serif" font-size="16px" line-height="22px" font-weight="600" padding-bottom="24px">
+            Shop Gift Cards
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-image width="30px" height="28px" href="https.doordash.com" alt="Android/Apple Logo" src="https://benjamingarcia.info/wp-content/uploads/2023/06/group-1.png" align="left" />
+          <mj-text color="#191919" font-family="sans-serif" font-size="16px" line-height="22px" font-weight="600" padding-bottom="24px">
+            Refer and Earn Credit
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-image width="27px" height="28px" href="https.doordash.com" alt="Android/Apple Logo" src="https://benjamingarcia.info/wp-content/uploads/2023/06/delivery-1.png" align="left" />
+          <mj-text color="#191919" font-family="sans-serif" font-size="16px" line-height="22px" font-weight="600" padding-bottom="24px">
+            Deliver with DoorDash
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-raw>
+        <!-- Footer Bottom -->
+      </mj-raw>
+      <mj-section background-color="#f4f4f4" padding="48px 64px 0px">
+        <mj-column>
+          <mj-text color="#9a9a9a" font-family="sans-serif" font-size="14px" line-height="18px" font-weight="400" padding-bottom="0px">
+            &copy 2023 DoorDash Inc.
+          </mj-text>
+          <mj-text color="#9a9a9a" font-family="sans-serif" font-size="14px" line-height="18px" font-weight="400" padding-bottom="0px" padding-top="0">
+            303 2nd Street, South Tower, Suite 800
+          </mj-text>
+          <mj-text color="#9a9a9a" font-family="sans-serif" font-size="14px" line-height="18px" font-weight="400" padding-bottom="0px" padding-top="0">
+            San Francisco, CA 94107
+          </mj-text>
+          <mj-text color="#9a9a9a" font-family="sans-serif" font-size="14px" line-height="18px" font-weight="400" padding-bottom="0px" padding-top="0">
+            Privacy Policy
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-raw>
+        <!-- Footer Icons-->
+      </mj-raw>
+      <mj-section css-class="footer-icons" background-color="#f4f4f4" padding="0px 64px">
+        <mj-column>
+          <mj-table width="120px">
+            <tr>
+              <td align="left">
+                <img href="https://facebook.com" src="https://benjamingarcia.info/wp-content/uploads/2023/06/facebook-1.png" width="8px" height="15.5px" />
+              </td>
+              <td align="center">
+                <img href="https://twitter.com" src="https://benjamingarcia.info/wp-content/uploads/2023/06/twitter-1.png" width="21px" height="17px" />
+              </td>
+              <td align="center">
+                <img href="https://instagram.com" src="https://benjamingarcia.info/wp-content/uploads/2023/06/ig-1.png" width="18px" height="18px" />
+              </td>
+              <td align="center">
+                <img href="https://facebook.com" src="https://benjamingarcia.info/wp-content/uploads/2023/06/medium-1.png" width="18px" height="18px" />
+              </td>
+            </tr>
+          </mj-table>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#f4f4f4" padding="0px 64px 48px">
+        <mj-column>
+          <mj-text color="#9a9a9a" font-family="sans-serif" font-size="14px" line-height="18px" font-weight="400" padding-bottom="24px">
+            <a href="Https://doordash.com">Help Center</a> |<a href="Https://doordash.com">
+              View email in browser</a>
+          </mj-text>
+          <mj-text color="#9a9a9a" font-family="sans-serif" font-size="14px" line-height="18px" font-weight="400" padding-bottom="24px" padding-top="0">
+            Prop 65 Restaurant
+            <a href="#" style="text-decoration: underline">WARNING</a>
+          </mj-text>
+          <mj-text color="#9a9a9a" font-family="sans-serif" font-size="14px" line-height="18px" font-weight="400" padding-bottom="24px" padding-top="0">
+            Prop 65 Alcohol
+            <a href="#" style="text-decoration: underline">WARNING.</a> Drinking
+            distilled spirits, beer, coolers, wine, and other alcoholic
+            beverages may increase cancer risk, and, during pregnancy, can cause
+            birth defects. For more information go to
+            www.P65Warnings.ca.gov/alcohol.
+          </mj-text>
+          <mj-text color="#9a9a9a" font-family="sans-serif" font-size="14px" line-height="18px" font-weight="400" padding-bottom="0px" padding-top="0">
+            Prop 65 BPA
+            <a href="#" style="text-decoration: underline">WARNING</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>
